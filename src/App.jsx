@@ -17,7 +17,7 @@ const App = () => {
   };
   return (
     <section className="section-center">
-      <Items items={groceryItems} />
+      <Items items={groceryItems} editCompleted={editCompleted} />
     </section>
   );
 };
