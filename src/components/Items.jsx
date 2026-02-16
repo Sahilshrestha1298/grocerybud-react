@@ -1,4 +1,4 @@
-import SingleItem from "./singleitem";
+import SingleItem from "./SingleItem";
 import "./Items.css";
 
 const Items = ({ items }) => {
