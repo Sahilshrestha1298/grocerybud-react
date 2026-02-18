@@ -4,7 +4,7 @@ import "react-toastify/dist/ReactToastify.css";
 import { useEffect, useRef, useState } from "react";
 import "./App.css";
 import { nanoid } from "nanoid";
-import Form from "./components/Form";
+import Form from "./components/form";
 
 const getLocalStorage = () => {
   let list = localStorage.getItem("grocery-list");
