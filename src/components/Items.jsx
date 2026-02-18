@@ -1,4 +1,4 @@
-import SingleItem from "./SingleItem";
+import SingleItem from "./Singleitem";
 import "./Items.css";
 
 const Items = ({ items, editCompleted, removeItem, setEditId }) => {
